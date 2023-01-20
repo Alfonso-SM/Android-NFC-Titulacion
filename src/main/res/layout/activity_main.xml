@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/back"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lenguageLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Seleccionar coche"
+        android:textColorHint="?attr/colorOnSecondary"
+        app:boxStrokeColor="?attr/colorOnSecondary"
+        app:endIconTint="?attr/colorOnSecondary"
+        app:hintTextColor="?attr/colorOnSecondary"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:startIconTint="?attr/colorOnSecondary">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/aldrich"
+            android:textAllCaps="true"
+            android:layout_weight="2"
+            android:background="?attr/colorOnPrimary"
+            android:inputType="none" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/registrar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="Registrar\nnueva tarjeta\no\npin"
+        android:backgroundTint="@color/botonera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:fontFamily="@font/aldrich"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lenguageLayout"
+        app:layout_constraintVertical_bias="0.10" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/prender"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="Prender\nCoche"
+        android:backgroundTint="@color/botonera"
+        android:fontFamily="@font/aldrich"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lenguageLayout"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Abrir"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="Abrir\nCoche"
+        android:backgroundTint="@color/botonera"
+        android:fontFamily="@font/aldrich"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prender"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Cerrar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="Cerrar\nCoche"
+        android:fontFamily="@font/aldrich"
+        android:backgroundTint="@color/botonera"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registrar"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/botonera"
+        android:fontFamily="@font/aldrich"
+        android:onClick="admin"
+        android:padding="10dp"
+        android:text="Administrar Tarjetas"
+        android:textSize="15sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Abrir"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/Transparent"
+        android:fontFamily="@font/aldrich"
+        android:onClick="callGPS"
+        android:padding="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="GPS / Ubicacion coche"
+        android:textColor="?attr/colorOnSecondary"
+        android:textSize="22sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialButton2"
+        tools:layout_editor_absoluteX="15dp" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
