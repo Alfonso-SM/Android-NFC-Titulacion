@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "382463135611",
+    "project_id": "car-key-a7d5e",
+    "storage_bucket": "car-key-a7d5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382463135611:android:842a73aabb92df2ed4f7de",
+        "android_client_info": {
+          "package_name": "com.example.truekeycar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382463135611-00j7ssi82ttdl7rfqr0vsp1v7kds4o0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACWgntGjfUQWoWVtRSnPCzjZsf-iwJQys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382463135611-00j7ssi82ttdl7rfqr0vsp1v7kds4o0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
