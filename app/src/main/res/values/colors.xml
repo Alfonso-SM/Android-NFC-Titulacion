@@ -15,4 +15,8 @@
     <color name="LettersPopUp">#28065C</color>
     <color name="Transparent">#00B0FF</color>
     <color name="botonera">#4DB6AC</color>
+    <color name="Sign_up_color">#3AB0E4</color>
+    <color name="Forget">#031F80</color>
+    <color name="pink">#F5FF80AB</color>
+    <color name="transparent">#00000000</color>
 </resources>

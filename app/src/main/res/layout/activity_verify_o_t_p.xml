@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorOnPrimary"
+    tools:context=".Common.VerifyOTP">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="?attr/colorOnPrimary"
+        android:padding="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                app:tint="?attr/colorOnSecondary"
+                android:src="@drawable/close" />
+
+            <Button
+                android:onClick="close"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/transparent"
+                android:elevation="3dp"
+                android:layout_marginStart="10dp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_marginTop="-10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bowlby"
+            android:text="@string/co_di_go"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="70sp"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:includeFontPadding="false"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bowlby"
+            android:textColor="?attr/colorOnSecondary"
+            android:text="@string/verification"
+            android:textAlignment="center"
+            android:includeFontPadding="false"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="@string/ingrese_numero_unico_de_verificaci_n"
+            android:textAlignment="center"
+            android:includeFontPadding="false"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="15sp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"/>
+
+        <com.chaos.view.PinView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pinview"
+            app:itemCount="6"
+            app:itemWidth="50dp"
+            app:itemHeight="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:itemBackground="?attr/colorOnPrimary"
+            style="@style/PinWidget.PinView"
+            android:inputType="number"
+            android:cursorVisible="true"
+            app:cursorColor="?attr/colorOnSecondary"
+            app:hideLineWhenFilled="true"
+            app:itemRadius="5dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/curveo_botones"
+            android:text="@string/verificar_codigo"
+            android:onClick="callNextScreenFromOTP"
+            android:layout_marginTop="30dp"
+            android:textColor="?attr/colorOnSecondary"/>
+    </LinearLayout>
+
+</ScrollView>

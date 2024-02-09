@@ -1,10 +1,95 @@
 <resources>
     <string name="app_name">TRUE KEY\nCAR</string>
-    <string name="contrase_a_olvidada">Contraseña Olvidada</string>
     <string name="servicedesc">descripcion</string>
     <string name="aiddescription">aid descropcion</string>
     <string name="Aviso">Acerque\nla tarjeta\no\npin a registar</string>
     <string name="KEYAPI">AIzaSyBj-y_kIoD0gGHue-upKO4GO91FjgimwyI</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="contrase_a_olvidada">Contraseña olvidada</string>
+    <string name="Numero_cel">Ingresa tu numero celular con el que tienes la cuenta</string>
+    <string name="Num">Numero de celular</string>
+    <string name="contra">Contraseña</string>
+    <string name="Contra_conf">Confirma contraseña</string>
+    <string name="Bienvenido">Bienvenido</string>
+
+
+
+    <!-- Checar cual se necesita -->
+    <string name="ultimos_tickets">Ultimos tickets</string>
+    <string name="gasto_personal">Gasto personal</string>
+    <string name="mesa_general">Mesa general</string>
+    <string name="Secret">****</string>
+    <string name="efectivo">EFECTIVO</string>
+    <string name="busqueda">Busqueda</string>
+    <string name="ordenar">Ordenar</string>
+    <string name="agregar_comentarios">Agregar comentarios</string>
+    <string name="title_activity_go__pay">Go_Pay</string>
+    <string name="promociones">Promociones</string>
+    <string name="menu">Menu</string>
+    <string name="Monto">$0.00</string>
+    <string name="the_best_app_for_restaurants">La mejor aplicacion para restaurantes</string>
+    <string name="metodo_de_pago">Tarjeta credito/ debito</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="elegir_idioma">Elegir idioma :</string>
+    <string name="idioma">Español</string>
+    <string name="espa_ol">Español</string>
+    <string name="ingles">Ingles</string>
+    <string name="contrase_a_actualizada">Contraseña Actualizada</string>
+    <string name="gracias_por_confiar_en_nosotros">Gracias por confiar en nosotros</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="tickets">Tickets</string>
+    <string name="inicia_sesi_n_para_continuar">Inicia Sesión para continuar</string>
+    <string name="recuerdame">Recuerdame</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="selecciona_nforma_nde_contacto">Selecciona\nforma\nde contacto</string>
+    <string name="via_email">via Email:</string>
+    <string name="via_sms">via SMS:</string>
+    <string name="agregar_nmetodo_nde_pago">Agregar\nmetodo\nde pago</string>
+    <string name="agregar_tarjeta_debito_credito">Agregar Tarjeta debito/credito</string>
+    <string name="hacer_npago">Hacer\nPago</string>
+    <string name="montotxt">Monto</string>
+    <string name="tarjeta_debito_credito">Tarjeta debito/credito</string>
+    <string name="ir_a_pagar">Ir a pagar</string>
+    <string name="ingresa_la_siguiente_informaci_n_para_continuar">Ingresa la siguiente información para continuar</string>
+    <string name="nombre_del_restaurante">Nombre del restaurante</string>
+    <string name="numero_de_mesa">Numero de mesa</string>
+    <string name="ir_a_menu">Ir a menu</string>
+    <string name="ticket_detallado">Ticket detallado</string>
+    <string name="descargar">Descargar</string>
+    <string name="nueva_contrase_a">Nueva Contraseña</string>
+    <string name="ingresa_tu_nueva_contrase_a">Ingresa tu nueva contraseña</string>
+    <string name="crear_cuenta">Crear\nCuenta</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="apodo">Apodo</string>
+    <string name="email">Email</string>
+    <string name="genero">Genero</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="otro">Otro</string>
+    <string name="fecha_de_nacimiento">Fecha de nacimiento</string>
+    <string name="co_di_go">Co\ndi\ngo</string>
+    <string name="verification">Verificación</string>
+    <string name="ingrese_numero_unico_de_verificaci_n">Ingrese numero unico de verificación</string>
+    <string name="verificar_codigo">Verificar código</string>
+    <string name="precio">Precio =</string>
+    <string name="actualizar_informaci_n">Actualizar información</string>
+    <string name="restaurantes_cercanos">Restaurantes cercanos</string>
+    <string name="no_se_tiene_una_cuenta_registrada">No se tiene una cuenta registrada</string>
+    <string name="se_envio_la_orden_a_cocina">Se envio la orden a cocina</string>
+    <string name="dejar_de_pedir">Dejar de pedir</string>
+    <string name="seguir_pidiendo">Seguir pidiendo</string>
+    <string name="orden">ORDEN</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="pedir">pedir</string>
+    <string name="total">Total =</string>
+    <string name="Verificacion_completada">Verificacion completada</string>
+    <string name="Verificacion_no_completada">Verificacion no completada. Inetntalo nuevamente</string>
+    <string name="Idioma">Idioma</string>
+    <string name="gestion_de_tarjetas">Gestion de tarjetas</string>
+    <string name="Fecha">dd-MM-yyy</string>
+    <string name="predeterminada">Predeterminada</string>
+    <string name="borrar">borrar</string>
 </resources>
