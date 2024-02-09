@@ -67,7 +67,7 @@ public class Log_in extends AppCompatActivity {
     }
 
     public void callSignup(View view) {
-        Intent intent = new Intent(Log_in.this, Registro.class).putExtra("token", token);
+        Intent intent = new Intent(Log_in.this, SignUp.class).putExtra("token", token);
         startActivity(intent);
     }
 

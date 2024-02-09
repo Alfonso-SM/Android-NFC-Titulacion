@@ -111,6 +111,13 @@
                 android:resource="@array/preloaded_fonts" />
 
         </service>
+
+
+
+        <activity android:name=".VerifyOTP" />
+        <activity android:name=".SignUp3" />
+        <activity android:name=".SignUp2" />
+        <activity android:name=".SignUp" />
     </application>
 
 </manifest>
