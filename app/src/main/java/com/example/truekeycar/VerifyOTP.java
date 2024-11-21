@@ -130,7 +130,7 @@ public class VerifyOTP extends AppCompatActivity {
     private void storeNewUsersData() {
         FirebaseDatabase rootNode = FirebaseDatabase.getInstance();
         DatabaseReference reference = rootNode.getReference("Users");
-      //  UserHelperClass addNewUser= new UserHelperClass(fullname, username, email,phoneNo, password, date, gender,phoneNoComplete);
+        //UserHelperClass addNewUser= new UserHelperClass(fullname, username, email,phoneNo, password, date, gender,phoneNoComplete);
       //  reference.child(phoneNo).setValue(addNewUser);  // Child es para poder almacenar los datos con el nombre que se quiera, Use el celular para que no haya mas de 1 usuario con el mismo celular
         Intent intent=new Intent(VerifyOTP.this,Log_in.class);
         startActivity(intent);
